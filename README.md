@@ -22,19 +22,20 @@ Para esto, seguir lo siguientes pasos:
 ```
 git clone https://github.com/wormaza/EjemploOO.git
 ```
-2. Generar las imagenes (con Docker, puede tardar la primera vez). Contruimos las imagenes en base a la señalado en el Dockerfile
+2. Acceder al directorio del proyecto **EjemploOO**
+3. Generar las imagenes (con Docker, puede tardar la primera vez). Contruimos las imagenes en base a la señalado en el Dockerfile
 ```
 docker build . -t ejemplo1
 ```
-3. Ejecutar el proyecto (el contenedor se eliminará una vez finalizada la ejecución). Accede al ejemplo, donde se indican las instrucciones.
+4. Ejecutar el proyecto (el contenedor se eliminará una vez finalizada la ejecución). Accede al ejemplo, donde se indican las instrucciones.
 ```
 docker run --rm -it  ejemplo1
 ```
-4. Se sugiere eliminar las imagenes asociadas al proyecto (indicar que si *y*):
+5. Se sugiere eliminar las imagenes asociadas al proyecto (indicar que si *y*):
 ```
 docker image prune
 ```
-5. Eliminar la imagen del poryecto
+6. Eliminar la imagen del poryecto
 ```
 docker rmi $(docker images 'ejemplo1' -q)
 ```
