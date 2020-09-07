@@ -20,21 +20,24 @@ Para esto, seguir lo siguientes pasos:
 
 1. Descargar el proyecto
 ```
-git clone xxx
+git clone https://github.com/wormaza/EjemploOO.git
 ```
 2. Generar las imagenes (con Docker, puede tardar la primera vez). Contruimos las imagenes en base a la señalado en el Dockerfile
 ```
-xxx
+docker build . -t ejemplo1
 ```
 3. Ejecutar el proyecto (el contenedor se eliminará una vez finalizada la ejecución). Accede al ejemplo, donde se indican las instrucciones.
 ```
-xxx
+docker run --rm -it  ejemplo1
 ```
-4. Se sugiere eliminar las imagenes asociadas al proyecto:
+4. Se sugiere eliminar las imagenes asociadas al proyecto (indicar que si *y*):
 ```
-xxx
+docker image prune
 ```
-
+5. Eliminar la imagen del poryecto
+```
+docker rmi $(docker images 'ejemplo1' -q)
+```
 ## Uso del ejemplo
 
 El ejemplo, permite revisar la ejecución de distintas implementaciones básicas. Cada situación analizada se encuentra en su propo archivo.
@@ -43,13 +46,25 @@ El ejemplo, permite revisar la ejecución de distintas implementaciones básicas
 
 Se revisa, la definición de lo que es una clase, y cual es la diferencia con un objeto.
 
-* Concepto de **clase**
-* Concepto de **objeto**
+* Concepto de *clase*
+* Concepto de *objeto*
 
 ### Ejemplo 2
 
 Se analiza un caso de implementación en un escenario sin herencia, y con herencia.
 
-* Concepto de **herencia**
-* Concepto de **polimorfismo dinámico**
-* * Concepto de **polimorfismo estático**
+* Concepto de *herencia*
+* Concepto de *polimorfismo dinámico*
+* Concepto de *polimorfismo estático*
+
+### Ejemplo 3
+
+Se parte del resultado final del ejemplo anterior, para introducir lo que es una clase abstracta.
+
+* Concepto de *clase abstracta*
+
+### Ejemplo 4
+
+Último ejemplo, donde se modifica la definición base y se utiliza una interfaz basandonos en los metodos identificados.
+
+* Concepto de *interfaz*

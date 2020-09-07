@@ -9,7 +9,7 @@ namespace TodoEjemplo2
 
         public void Ejecutar()
         {
-            Console.WriteLine("* EJEMPLO 2: Herencia *");
+            Console.WriteLine("* EJEMPLO 2: Herencia y Polimorfismo*");
             Console.WriteLine("Paso 1: Analizar las estructuras de las clase CuadradoBase y TrianguloBase");
             Transversales.Continuar();
 
@@ -46,7 +46,7 @@ namespace TodoEjemplo2
             #endregion
 
             #region IMPLEMENTACION POLIMORFISMO 2
-            Console.WriteLine("--> Diferentes implementciones del mismo metodo heredado: Polimorfismo dinamico");
+            Console.WriteLine("--> Diferentes implementaciones del mismo metodo heredado: Polimorfismo dinamico");
             Transversales.Continuar();
             
             Console.WriteLine("\nPolimorfismo estatico:");
@@ -54,14 +54,14 @@ namespace TodoEjemplo2
             EjemploPolimorfismoEstatico(8);
             Transversales.Continuar();
             Console.WriteLine("-> Nombre para f");
-            Transversales.Continuar();
             ObtenerNombre(f);
+            Transversales.Continuar();
             Console.WriteLine("-> Nombre para c1");
-            Transversales.Continuar();
             ObtenerNombre(c1);
-            Console.WriteLine("-> Nombre para t1");
             Transversales.Continuar();
+            Console.WriteLine("-> Nombre para t1");
             ObtenerNombre(t1);
+            Transversales.Continuar();
             #endregion
 
             Console.WriteLine("\n* FIN EJEMPLO 2 *");
@@ -79,7 +79,7 @@ namespace TodoEjemplo2
         }
         public void ObtenerNombre(FiguraGeometrica input)
         {
-            Console.WriteLine("\n El nombre es:{0}", input.Nombre);
+            Console.WriteLine("El nombre es:{0}", input.Nombre);
         }
 
         #endregion
@@ -154,7 +154,6 @@ namespace TodoEjemplo2
     #endregion
 
     #region PARTE 2
-
     public class FiguraGeometrica
     {
         public double Altura {get;set;}
@@ -188,7 +187,6 @@ namespace TodoEjemplo2
         }
 
     }
-
     public class Cuadrado:FiguraGeometrica
     {
         public double Lado {get;set;}
@@ -208,8 +206,7 @@ namespace TodoEjemplo2
 
         public override double GetPerimetro() => 4*Lado;
         public override double GetArea() => Math.Pow(Altura,2);
-    }
-    
+    }   
     public class TrianguloEquilatero:FiguraGeometrica
     {
         public TrianguloEquilatero(double Altura,double Base,Transversales.Color Color):base(Altura,Base,Color)
