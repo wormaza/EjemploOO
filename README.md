@@ -19,9 +19,6 @@ Para su ejecución, se sugiere el uso de Docker para evitar instalar componentes
 Para esto, seguir lo siguientes pasos:
 
 1. Descargar el proyecto
-```
-git clone https://github.com/wormaza/EjemploOO.git
-```
 2. Acceder al directorio del proyecto **EjemploOO**
 3. Generar las imagenes (con Docker, puede tardar la primera vez). Contruimos las imagenes en base a la señalado en el Dockerfile
 ```
