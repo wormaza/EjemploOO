@@ -8,7 +8,7 @@ El siguiente ejemplo pretende ilustra algunos conceptos de la programación orie
 
 Su desarrollo fue realizado para su uso en la asignatura INF236, del [Departamento de Informáctica](https://www.inf.utfsm.cl/) de la [Universidad Técnica Federico Santa María](https://www.usm.cl/), segundo semestre del 2020.
 
-Pronto en enlace al video de la clase.
+El video de la clase, [aquí](https://youtu.be/OPbdUUe8ClI).
 
 Comentarios y observaciones a [wladimir.ormzabal@usm.cl](mailto:wladimir.ormazabal@usm.cl)
 
