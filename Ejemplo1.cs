@@ -7,7 +7,7 @@ namespace TodoEjemplo1
     {
         public Ejemplo1(){}
 
-        public void RunEjemplo1()
+        public void Ejecutar()
         {
             Console.WriteLine("* EJEMPLO 1: Creando un objeto *");
             Console.WriteLine("Paso 1: Revisar la estructura de la clase 'cuadrado'");

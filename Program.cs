@@ -1,5 +1,6 @@
 ﻿using System;
 using TodoEjemplo1;
+using TodoEjemplo2;
 
 namespace EjemploOO
 {
@@ -10,6 +11,7 @@ namespace EjemploOO
             Console.WriteLine("--- EJEMPLOS OO - INF 236 ---");
             Console.WriteLine("Seleccionar alguna de las siguientes opciones:");
             Console.WriteLine("1: Definción de un objeto");
+            Console.WriteLine("2: Herencia y polimorfismo");
             Console.WriteLine("0: Salir");
 
             bool read = true;
@@ -24,8 +26,10 @@ namespace EjemploOO
                 
                 switch(opcion)
                 {
-                    case 1: (new Ejemplo1()).RunEjemplo1();
+                    case 1: (new Ejemplo1()).Ejecutar();
                             break;
+                    case 2: (new Ejemplo2()).Ejecutar();
+                            break;        
                     default: break;
                 }
             }while(read);

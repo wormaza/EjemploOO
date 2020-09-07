@@ -26,7 +26,7 @@ git clone xxx
 ```
 xxx
 ```
-3. Ejecutar el proyecto (el contenedor se eliminará una vez finalizada la ejecución)
+3. Ejecutar el proyecto (el contenedor se eliminará una vez finalizada la ejecución). Accede al ejemplo, donde se indican las instrucciones.
 ```
 xxx
 ```
@@ -43,4 +43,13 @@ El ejemplo, permite revisar la ejecución de distintas implementaciones básicas
 
 Se revisa, la definición de lo que es una clase, y cual es la diferencia con un objeto.
 
+* Concepto de **clase**
+* Concepto de **objeto**
+
 ### Ejemplo 2
+
+Se analiza un caso de implementación en un escenario sin herencia, y con herencia.
+
+* Concepto de **herencia**
+* Concepto de **polimorfismo dinámico**
+* * Concepto de **polimorfismo estático**
