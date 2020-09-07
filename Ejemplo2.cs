@@ -40,6 +40,7 @@ namespace TodoEjemplo2
 
             Console.WriteLine("Cuadrado de: Perimetro es {0}, Area es {1} y color es {2}",c1.GetPerimetro(),c1.GetArea(),c1.GetColor());
             Console.WriteLine("\nTriangulo de: Perimetro es {0}, Area es {1} y color es {2}",t1.GetPerimetro(),t1.GetArea(),t1.GetColor());
+            Console.WriteLine("\nFigura de: Perimetro es {0}, Area es {1} y color es {2}",f.GetPerimetro(),f.GetArea(),f.GetColor());
 
             Transversales.Continuar();
             

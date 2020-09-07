@@ -28,7 +28,7 @@ namespace TodoEjemplo4
             #endregion
 
             #region PARTE 2
-            Console.WriteLine("Paso 3: Un uso adicional de la intrrfaz");
+            Console.WriteLine("Paso 3: Un uso adicional de la interfaz");
             Transversales.Continuar();
 
             Console.WriteLine("-> Nombre para c1");
