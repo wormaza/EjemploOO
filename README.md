@@ -32,7 +32,7 @@ docker run --rm -it  ejemplo1
 ```
 docker image prune
 ```
-6. Eliminar la imagen del poryecto
+6. Eliminar la imagen del proyecto
 ```
 docker rmi $(docker images 'ejemplo1' -q)
 ```
